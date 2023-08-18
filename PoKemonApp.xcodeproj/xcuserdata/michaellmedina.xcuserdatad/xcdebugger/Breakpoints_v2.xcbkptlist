@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "765E0546-32A1-4D9D-A38A-4F270DE173A0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D11A3B48-FC66-42C2-B73A-94A1672881C2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PoKemonApp/Start/View/StartViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "goButtonTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A51D54CA-4529-45BB-B00A-83024F1FDB30"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PoKemonApp/Start/Presenter/StartPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "goButtonTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8676536C-5DE2-4087-9B6F-F4A75AFC5AF6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PoKemonApp/Start/Router/StartRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "navigateToHomeScreen()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7FE9BA86-2227-4F65-916E-310038F1EB6F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PoKemonApp/Start/Router/StartRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "navigateToHomeScreen()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6AAB615-B35A-4517-BC1D-2479B44F0734"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PoKemonApp/StartModule/StartRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "goToHomeModule()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D6AAB615-B35A-4517-BC1D-2479B44F0734 - 6ca82e65e076d231"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PoKemonApp.StartModuleRouter.goToHomeModule() -&gt; ()"
+                  moduleName = "PoKemonApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michaellmedina/Desktop/PoKemonApp/PoKemonApp/StartModule/StartRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "436">
+               </Location>
+               <Location
+                  uuid = "D6AAB615-B35A-4517-BC1D-2479B44F0734 - 6ca82e65e076cdd0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PoKemonApp.StartModuleRouter.goToHomeModule() -&gt; ()"
+                  moduleName = "PoKemonApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michaellmedina/Desktop/PoKemonApp/PoKemonApp/StartModule/StartRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "D6AAB615-B35A-4517-BC1D-2479B44F0734 - 6ca82e65e076cdd0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PoKemonApp.StartModuleRouter.goToHomeModule() -&gt; ()"
+                  moduleName = "PoKemonApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michaellmedina/Desktop/PoKemonApp/PoKemonApp/StartModule/StartRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A7E99C9-1895-4D85-A5C6-E283DC729AE9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PoKemonApp/StartModule/StartModuleVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "goButtonPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B9346E8-F4E4-4C72-8686-6454F5201FCA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PoKemonApp/StartModule/StartModulePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "goToHome()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5B9346E8-F4E4-4C72-8686-6454F5201FCA - e1fd215757228e00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PoKemonApp.StartModulePresenter.viewDidLoad() -&gt; ()"
+                  moduleName = "PoKemonApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michaellmedina/Desktop/PoKemonApp/PoKemonApp/StartModule/StartModulePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "5B9346E8-F4E4-4C72-8686-6454F5201FCA - 5bb7e3c002194e2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PoKemonApp.StartModulePresenter.goToHome() -&gt; ()"
+                  moduleName = "PoKemonApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michaellmedina/Desktop/PoKemonApp/PoKemonApp/StartModule/StartModulePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC9466C0-955C-43FE-8786-309F91B3E6A1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PoKemonApp/StartModule/StartModulePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "goToHome()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BC9466C0-955C-43FE-8786-309F91B3E6A1 - e1fd215757228e00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PoKemonApp.StartModulePresenter.viewDidLoad() -&gt; ()"
+                  moduleName = "PoKemonApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michaellmedina/Desktop/PoKemonApp/PoKemonApp/StartModule/StartModulePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "BC9466C0-955C-43FE-8786-309F91B3E6A1 - 5bb7e3c002194e2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PoKemonApp.StartModulePresenter.goToHome() -&gt; ()"
+                  moduleName = "PoKemonApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michaellmedina/Desktop/PoKemonApp/PoKemonApp/StartModule/StartModulePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

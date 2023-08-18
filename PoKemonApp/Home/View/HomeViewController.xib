@@ -10,6 +10,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="PoKemonApp" customModuleProvider="target">
             <connections>
+                <outlet property="pokemonCollection" destination="rTU-Ju-THa" id="DWd-fp-39t"/>
+                <outlet property="pokemonSearchBar" destination="RXo-aW-G8e" id="JaA-Jg-Pcy"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,9 +20,21 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RXo-aW-G8e">
-                    <rect key="frame" x="0.0" y="68" width="393" height="44"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="rTU-Ju-THa">
+                    <rect key="frame" x="0.0" y="103" width="393" height="681"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="3NE-AT-qfJ">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="RXo-aW-G8e">
+                    <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="RXo-aW-G8e" secondAttribute="height" multiplier="393:44" id="Qbd-qW-LTn"/>
+                    </constraints>
                     <textInputTraits key="textInputTraits"/>
                     <connections>
                         <outlet property="delegate" destination="-1" id="pDB-ME-iYd"/>
@@ -29,7 +43,16 @@
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-            <point key="canvasLocation" x="36" y="20"/>
+            <constraints>
+                <constraint firstItem="rTU-Ju-THa" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Pps-gg-AW8"/>
+                <constraint firstItem="RXo-aW-G8e" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="T7Z-iH-FXK"/>
+                <constraint firstItem="rTU-Ju-THa" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="l2G-iN-TjG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="rTU-Ju-THa" secondAttribute="bottom" constant="34" id="pp5-7G-6JL"/>
+                <constraint firstItem="rTU-Ju-THa" firstAttribute="top" secondItem="RXo-aW-G8e" secondAttribute="bottom" id="seR-pT-sNz"/>
+                <constraint firstItem="RXo-aW-G8e" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="xKa-4M-3Fd"/>
+                <constraint firstItem="RXo-aW-G8e" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="yzN-uW-T4Z"/>
+            </constraints>
+            <point key="canvasLocation" x="35.877862595419849" y="19.718309859154932"/>
         </view>
     </objects>
     <resources>
